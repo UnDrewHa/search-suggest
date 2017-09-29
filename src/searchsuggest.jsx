@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
 
 import Heading from './heading.jsx';
 import Input from './input.jsx';
 import UsersList from './userslist.jsx';
 
-class SearchSuggest extends React.Component {
+class SearchSuggest extends Component {
   constructor(props) {
     super(props);
 

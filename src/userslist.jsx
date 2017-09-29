@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function UsersList(props) {
+function UsersList(props) {
   const users = [];
 
   props.users.forEach(user => {
@@ -15,3 +15,5 @@ export default function UsersList(props) {
     </div>
   );
 }
+
+export default UsersList;

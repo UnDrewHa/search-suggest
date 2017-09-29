@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Input(props) {
+function Input(props) {
   function onFilter (e) {
     props.onFilter(e.target.value);
   }
@@ -13,3 +13,5 @@ export default function Input(props) {
     </div>
   )
 }
+
+export default Input;
